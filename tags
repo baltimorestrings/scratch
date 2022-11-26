@@ -1,0 +1,16 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+argv	demo.py	/^from sys import stdout, argv$/;"	i
+asyncio	demo.py	/^import asyncio$/;"	i
+justprints	demo.py	/^async def justprints():$/;"	f
+log	demo.py	/^log = getLogger("demo")$/;"	v
+main	demo.py	/^def main():$/;"	f
+main2	demo.py	/^def main2():$/;"	f
+stdout	demo.py	/^from sys import stdout, argv$/;"	i
+thisblocks	demo.py	/^async def thisblocks():$/;"	f
+thisdoesnt	demo.py	/^async def thisdoesnt():$/;"	f
+time	demo.py	/^import time$/;"	i
