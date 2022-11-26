@@ -60,8 +60,6 @@ Run with "1" or "2" to show both ways:
 
 ```bash
 user@USER> python3 demo.py 1
-/Users/afrankel02/asyncdrom/demo.py:38: DeprecationWarning: There is no current event loop
-  loop = asyncio.get_event_loop()
 [demo::main] Running 2  async functions: thisblocks then justprints
 [demo::thisblocks] in func
 [demo::thisblocks] done!
@@ -77,8 +75,6 @@ Now with awaiting:
 user@USER> python3 demo.py 2
 [demo::main2] ---
 Runninng 2 async functions: thisdoesnt then justprints
-/Users/afrankel02/asyncdrom/demo.py:46: DeprecationWarning: There is no current event loop
-  loop = asyncio.get_event_loop()
 [demo::thisdoesnt] in func
 [demo::justprints] HEY
 [demo::thisdoesnt] done!
